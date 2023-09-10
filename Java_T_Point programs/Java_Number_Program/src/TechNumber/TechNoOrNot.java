@@ -16,21 +16,32 @@ import java.util.Arrays;
 
 public class TechNoOrNot {
 	
+//	public static boolean isEvenNo(int n)
+//	{
+//		int j =2;
+//		for(int i=0; i<n; i++)
+//		{
+//			if(j==n)
+//			{
+//				return true;
+//			}
+//			else
+//			{
+//				j=j+2;
+//			}
+//		}
+//		return false;
+//	}
+	
 	public static boolean isEvenNo(int n)
 	{
-		int j =2;
-		for(int i=0; i<n; i++)
+		if(n%2==0)
 		{
-			if(j==n)
-			{
-				return true;
-			}
-			else
-			{
-				j=j+2;
-			}
+			return true;
 		}
-		return false;
+		else {
+			return false;
+		}
 	}
 	
 	public static void main(String args[])
